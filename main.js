@@ -4,7 +4,7 @@ const ctx = canvas.getContext("2d")
 resizeCanvas()
 
 let rect = canvas.getBoundingClientRect();
-let ball = new Ball(rect.width / 2, rect.height / 2, 25, "#0000AA");
+let ball = new Ball(rect.width / 2, rect.height / 2, 300, "#0000AA");
 
 animate()
 
