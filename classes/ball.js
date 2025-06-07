@@ -63,8 +63,8 @@ class Ball {
         ctx.shadowOffsetX = this.radius / 7
         ctx.shadowOffsetY = this.radius / 10
 
-        ctx.beginPath()
-        ctx.fillStyle = gradient
+        //ctx.beginPath()
+        //ctx.fillStyle = gradient
         ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI)
         ctx.fill()
         ctx.closePath()
